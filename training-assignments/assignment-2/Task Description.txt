@@ -1,0 +1,11 @@
+Task - Write a java program to read the xml file, parse the data in it and write it in a csv file
+
+Input - employee.xml
+Output - employee.csv
+
+Output file must contain data as follows-
+
+id,name,department,city,designation
+1,John,Development,LA,Senior Developer
+
+You can use any open source library 

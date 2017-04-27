@@ -1,0 +1,34 @@
+Task - Write a java+maven program to read the excel file and store the data into JSON format
+
+Insert dependencies in pom.xml, do not include library manually.
+Use external jars/libraries to 
+1. read data from excel file (.xls)
+2. convert data into JSON - you can use library to convrt
+	- POJO into JSON
+	- Maps, Lists into JSON
+
+Output -  employee.json
+
+Output file must contain data as follows-
+
+JSON - 
+{
+	"employees" : [
+		{
+			"id":"1",
+			"name":"John",
+			"department":"Development",
+			"city":"LA",
+			"designation":"Senior Developer"
+		},{
+			"id":"2",
+			"name":"Alex",
+			"department":"Sales",
+			"city":"NY",
+			"designation":"Senior Manager"
+		}....
+	]
+
+}
+
+You should use any open source library only, with maven only.

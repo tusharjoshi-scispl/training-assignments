@@ -1,0 +1,8 @@
+Task - Write a java + maven program to call a webservice and parse its JSON response to get Weather information
+
+In request, you should send following parameters
+
+1. city name or location
+2. date
+
+You should use any open source library with maven only.

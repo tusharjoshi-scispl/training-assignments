@@ -1,0 +1,50 @@
+Task - Write a java program to read the excel file and store the data into
+
+1. XML format
+2. JSON format
+
+Input - input.xls
+Output - employee.xml, employee.json
+
+Output file must contain data as follows-
+
+1. XML - 
+<employees>
+    <employee>
+        <id>1</id>
+		<name>John</name>
+        <department>Development</department>
+        <city>LA</city>
+        <designation>Senior Developer</designation>
+    </employee>
+    <employee>
+		<id>2</id>
+        <name>Alex</name>
+        <department>Sales</department>
+        <city>NY</city>
+        <designation>Senior Manager</designation>
+    </employee>
+....
+</employees>
+
+2. JSON - 
+{
+	"employees" : [
+		{
+			"id":"1",
+			"name":"John",
+			"department":"Development",
+			"city":"LA",
+			"designation":"Senior Developer"
+		},{
+			"id":"2",
+			"name":"Alex",
+			"department":"Sales",
+			"city":"NY",
+			"designation":"Senior Manager"
+		}....
+	]
+
+}
+
+You can use any open source library 
